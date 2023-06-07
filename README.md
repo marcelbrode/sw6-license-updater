@@ -18,4 +18,10 @@ After setting up the variables mentioned above this command will do the trick:
 bash .license.sh
 ```
 
+Of course, adding it your `.bashrc` / `.zshrc` via stuff like following or add it to your `PATH` makes it even more comfortable:
+
+```bash
+alias addlicenses="bash ~/Code/sw6-license-updater/license.sh"
+```
+
 The only prompt you'll be receiving will asking for the `Shopware-X` token, you get via the SBP. After that, you're already done.

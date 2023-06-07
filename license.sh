@@ -1,6 +1,8 @@
 #!/bin/bash
 
-. ./.config;
+SCRIPT_DIR="$(dirname "$(realpath "$0")")";
+
+. $SCRIPT_DIR/.config;
 
 if [[ -z $SHOPWARE_PATH ]]; then
   echo "Your SHOPWARE_PATH variable has not been set";
